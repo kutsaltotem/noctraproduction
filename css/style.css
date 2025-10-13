@@ -399,7 +399,8 @@ ol {
 .header__nav__social {
   display: inline-block;
   position: relative;
-  padding-left: 50px;
+  padding-left: 25px;
+  margin-top: 10px;
 }
 .header__nav__social:before {
   position: absolute;
