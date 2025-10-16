@@ -2015,9 +2015,83 @@ ol {
     padding-left: 0;
   }
 
-  .hero__slider.owl-carousel .owl-dots {
-    max-width: auto;
-    padding: 0 15px;
+  .portfolio__filter li {
+    padding: 6px 15px;
+    margin-bottom: 10px;
+  }
+
+  .hero__text h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .hero__item {
+    height: 550px;
+    padding-top: 150px;
+  }
+
+  .callto__text h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .work__item.large__item {
+    height: 400px !important;
+  }
+
+  .work__item {
+    width: calc(50% - 10px);
+    height: 200px !important;
+  }
+
+  .grid-sizer {
+    width: calc(50% - 10px);
+  }
+
+  .work__item.wide__item {
+    width: calc(50% - 10px);
+  }
+
+  .work__item.large__item {
+    width: calc(100% - 10px);
+  }
+
+  .about__pic__item {
+    margin-right: 0;
+  }
+
+  .about__pic__item.about__pic__item--large {
+    height: 300px;
+  }
+
+  .testimonial__text {
+    padding: 30px 20px 25px 20px;
+  }
+
+  .blog__details__quote {
+    padding: 35px 20px 35px 20px;
+  }
+
+  .blog__details__quote i {
+    right: 15px;
+    bottom: 15px;
+  }
+
+  .blog__details__option__item.blog__details__option__item--right .blog__details__option__item__text {
+    text-align: left;
+  }
+
+  .blog__details__option__item.blog__details__option__item--right h5 {
+    text-align: left;
+  }
+
+  .input__list input {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .contact__form {
+    margin-top: 50px;
   }
 
   .slicknav_menu {
@@ -2069,65 +2143,6 @@ ol {
   .header__nav__option {
     display: none;
   }
-
-  .hero__text h2 {
-    font-size: 40px;
-    line-height: 40px;
-  }
-
-  .grid-sizer {
-    width: calc(50% - 10px);
-  }
-
-  .work__item.wide__item {
-    width: calc(50% - 10px);
-  }
-
-  .work__item {
-    width: calc(50% - 10px);
-  }
-
-  .work__item.large__item {
-    width: calc(50% - 10px);
-  }
-
-  .footer__top__social {
-    text-align: left;
-    padding-top: 30px;
-  }
-
-  .portfolio__filter li {
-    margin-bottom: 10px;
-  }
-
-  .input__list {
-    margin-right: 0;
-  }
-
-  .input__list input {
-    width: 100%;
-    margin-right: 0;
-  }
-
-  .contact__map {
-    margin-bottom: 40px;
-  }
-
-  .team__item {
-    margin-bottom: 20px;
-  }
-
-  .team .p-0 {
-    padding: 0 15px !important;
-  }
-
-  .about__pic__item {
-    margin-right: 0;
-  }
-
-  .blog__details__quote {
-    padding: 30px 45px 35px 35px;
-  }
 }
 /* Small Device = 320px */
 @media only screen and (max-width: 479px) {
@@ -2136,36 +2151,40 @@ ol {
     line-height: 40px;
   }
 
-  .grid-sizer {
-    width: 100%;
+  .callto__text h2 {
+    font-size: 22px;
+    line-height: 32px;
   }
 
-  .work__item.wide__item {
-    width: 100%;
+  .footer__top__social {
+    text-align: left;
+    padding-top: 20px;
   }
 
-  .work__item {
-    width: 100%;
-    margin-right: 0;
+  .section-title h2 {
+    font-size: 30px;
   }
 
-  .work__item.large__item {
-    width: 100%;
+  .about__text .section-title h2 {
+    font-size: 28px;
   }
 
-  .work__gallery {
-    margin-right: 0;
+  .breadcrumb__text h2 {
+    font-size: 40px;
   }
 
-  .pagination__option .arrow__pagination.left__arrow {
-    margin-right: 15px;
+  .blog__details__quote p {
+    font-size: 18px;
+    line-height: 28px;
   }
+}
 
-  .pagination__option .arrow__pagination.right__arrow {
-    margin-left: 10px;
-  }
 
-  .blog__details__quote {
-    padding: 30px 40px 35px 35px;
-  }
+/*# sourceMappingURL=style.css.map */
+
+/* Custom CSS */
+.logo-container .owl-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
