@@ -44,19 +44,19 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.html">Ana Sayfa</a></li>
-                                <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                <li><a href="./hizmetler.html">Hizmetler</a></li>
-                                <li class="active"><a href="#">Sayfalar</a>
+                                <li><a href="./index.html" data-key="home">Ana Sayfa</a></li>
+                                <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                <li><a href="./hizmetler.html" data-key="services">Hizmetler</a></li>
+                                <li><a href="#" data-key="pages">Sayfalar</a>
                                     <ul class="dropdown">
-                                        <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                        <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-detaylari.html">Blog Detayları</a></li>
+                                        <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                        <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                        <li><a href="./blog.html" data-key="blog">Blog</a></li>
+                                        <li class="active"><a href="./blog-detaylari.html" data-key="blog_details">Blog Detayları</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./iletisim.html">İletişim</a></li>
+                                <li><a href="./iletisim.html" data-key="contact">İletişim</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
@@ -66,6 +66,7 @@
                             <a href="#" target="_blank"><i class="fa fa-vimeo"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
                         </div>
+                        <a href="#" id="language-switcher" class="language-switcher-flag"></a>
                     </div>
                 </div>
             </div>
@@ -80,11 +81,11 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-lg-8">
                     <div class="blog__hero__text">
-                        <h2>KULLANICILARI SOSYAL MEDYADA BİR VİDEOYU PAYLAŞMAYA NE TEŞVİK EDER?</h2>
+                        <h2 data-key="blog1_title">KULLANICILARI SOSYAL MEDYADA BİR VİDEOYU PAYLAŞMAYA NE TEŞVİK EDER?</h2>
                         <ul>
-                            <li>Yazar: <span>Zeynep Kaya</span></li>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_details_author">Yazar: <span>Zeynep Kaya</span></li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
                     </div>
                 </div>
@@ -100,88 +101,88 @@
                 <div class="col-lg-8">
                     <div class="blog__details__content">
                         <div class="blog__details__text">
-                            <p>“Vay be” faktörüne sahip videolar, olmayanlara göre her zaman daha fazla paylaşılabilirdir. “Vay be” faktörünü tanımlamak zordur, ancak genellikle izleyicilerin “Vay be!” diye düşünmesini sağlayan herhangi bir içeriği ifade eder. Örneğin, bir trambolinde geri takla atarken basket atan sporcuların viral videolarını düşünün.</p>
-                            <p>İnsanların arkadaşlarıyla paylaşmak istemelerini sağlayan bu tür akılda kalıcı içeriklerdir. Biraz akıllı pazarlama ile bu “vay be” faktörünü işletmenizin videoları için çalıştırabilirsiniz.</p>
+                            <p data-key="blog_details_wow_factor">“Vay be” faktörüne sahip videolar, olmayanlara göre her zaman daha fazla paylaşılabilirdir. “Vay be” faktörünü tanımlamak zordur, ancak genellikle izleyicilerin “Vay be!” diye düşünmesini sağlayan herhangi bir içeriği ifade eder. Örneğin, bir trambolinde geri takla atarken basket atan sporcuların viral videolarını düşünün.</p>
+                            <p data-key="blog_details_shareable_content">İnsanların arkadaşlarıyla paylaşmak istemelerini sağlayan bu tür akılda kalıcı içeriklerdir. Biraz akıllı pazarlama ile bu “vay be” faktörünü işletmenizin videoları için çalıştırabilirsiniz.</p>
                         </div>
                         <div class="blog__details__quote">
-                            <p>Instagram video hikayelerinize ve gönderilerinize aktarılmaya hazır yatay, kare ve dikey videolar oluşturun. Herhangi bir sosyal ağ için mükemmel!</p>
-                            <h6>Ali Veli</h6>
+                            <p data-key="blog_details_quote">Instagram video hikayelerinize ve gönderilerinize aktarılmaya hazır yatay, kare ve dikey videolar oluşturun. Herhangi bir sosyal ağ için mükemmel!</p>
+                            <h6 data-key="blog_details_quote_author">Ali Veli</h6>
                             <i class="fa fa-quote-right"></i>
                         </div>
                         <div class="blog__details__desc">
-                            <p>Ortalama bir İnternet kullanıcısı her gün yaklaşık 1,5 saat çevrimiçi video izliyor. Bu, videonun mesajınızı milyonlarca insanın gözü önüne sermek için güçlü bir pazarlama aracı olabileceği anlamına gelir. Ancak, tüm videolar eşit yaratılmamıştır.</p>
-                            <p>Bazıları sosyal medyada diğerlerinden doğal olarak daha fazla paylaşılabilir. İşte kullanıcıların videolarınızı sosyal medyada paylaşmak istemelerini nasıl sağlayacağınıza hızlı bir bakış.</p>
+                            <p data-key="blog_details_online_video_stats">Ortalama bir İnternet kullanıcısı her gün yaklaşık 1,5 saat çevrimiçi video izliyor. Bu, videonun mesajınızı milyonlarca insanın gözü önüne sermek için güçlü bir pazarlama aracı olabileceği anlamına gelir. Ancak, tüm videolar eşit yaratılmamıştır.</p>
+                            <p data-key="blog_details_how_to_share">Bazıları sosyal medyada diğerlerinden doğal olarak daha fazla paylaşılabilir. İşte kullanıcıların videolarınızı sosyal medyada paylaşmak istemelerini nasıl sağlayacağınıza hızlı bir bakış.</p>
                         </div>
                         <div class="blog__details__tags">
-                            <span><i class="fa fa-tag"></i> Etiket:</span>
-                            <a href="#">Düğün</a>
-                            <a href="#">Etkinlik</a>
-                            <a href="#">Çift</a>
+                            <span><i class="fa fa-tag"></i> <span data-key="blog_details_tags">Etiket:</span></span>
+                            <a href="#" data-key="blog_details_tag_wedding">Düğün</a>
+                            <a href="#" data-key="blog_details_tag_event">Etkinlik</a>
+                            <a href="#" data-key="blog_details_tag_couple">Çift</a>
                         </div>
                         <div class="blog__details__option">
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <a href="#" class="blog__details__option__item">
-                                        <h5><i class="fa fa-angle-left"></i> Önceki gönderiler</h5>
+                                        <h5 data-key="blog_details_prev_post"><i class="fa fa-angle-left"></i> Önceki gönderiler</h5>
                                         <div class="blog__details__option__item__img">
                                             <img src="img/blog/prev.jpg" alt="">
                                         </div>
                                         <div class="blog__details__option__item__text">
-                                            <h6>Yeni Android'im için Müzik ve Sesler Arıyorum...</h6>
-                                            <span>27 Kasım 2019</span>
+                                            <h6 data-key="blog_details_prev_post_title">Yeni Android'im için Müzik ve Sesler Arıyorum...</h6>
+                                            <span data-key="blog_details_prev_post_date">27 Kasım 2019</span>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="col-lg-6 col-md-6 col-sm-6">
                                     <a href="#" class="blog__details__option__item blog__details__option__item--right">
-                                        <h5>Önceki gönderiler <i class="fa fa-angle-right"></i></h5>
+                                        <h5 data-key="blog_details_next_post">Önceki gönderiler <i class="fa fa-angle-right"></i></h5>
                                         <div class="blog__details__option__item__img">
                                             <img src="img/blog/next.jpg" alt="">
                                         </div>
                                         <div class="blog__details__option__item__text">
-                                            <h6>Yeni Android'im için Müzik ve Sesler Arıyorum...</h6>
-                                            <span>27 Kasım 2019</span>
+                                            <h6 data-key="blog_details_next_post_title">Yeni Android'im için Müzik ve Sesler Arıyorum...</h6>
+                                            <span data-key="blog_details_next_post_date">27 Kasım 2019</span>
                                         </div>
                                     </a>
                                 </div>
                             </div>
                         </div>
                         <div class="blog__details__recent">
-                            <h4>Son Gönderiler</h4>
+                            <h4 data-key="blog_details_recent_posts">Son Gönderiler</h4>
                             <div class="row">
                                 <div class="col-lg-4 col-md-6 col-sm-6">
                                     <div class="blog__details__recent__item">
                                         <img src="img/blog/ri-1.jpg" alt="">
-                                        <h5>Vücut germe prosedürünün adımları nelerdir?</h5>
-                                        <span>6 Aralık 2019</span>
+                                        <h5 data-key="blog_details_recent_post1_title">Vücut germe prosedürünün adımları nelerdir?</h5>
+                                        <span data-key="blog_details_recent_post1_date">6 Aralık 2019</span>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6">
                                     <div class="blog__details__recent__item">
                                         <img src="img/blog/ri-2.jpg" alt="">
-                                        <h5>Vücut germe prosedürünün adımları nelerdir?</h5>
-                                        <span>6 Aralık 2019</span>
+                                        <h5 data-key="blog_details_recent_post2_title">Vücut germe prosedürünün adımları nelerdir?</h5>
+                                        <span data-key="blog_details_recent_post2_date">6 Aralık 2019</span>
                                     </div>
                                 </div>
                                 <div class="col-lg-4 col-md-6 col-sm-6">
                                     <div class="blog__details__recent__item">
                                         <img src="img/blog/ri-3.jpg" alt="">
-                                        <h5>Bir kozmetik cerrahi prosedürü için nasıl alışveriş yapılır?</h5>
-                                        <span>6 Aralık 2019</span>
+                                        <h5 data-key="blog_details_recent_post3_title">Bir kozmetik cerrahi prosedürü için nasıl alışveriş yapılır?</h5>
+                                        <span data-key="blog_details_recent_post3_date">6 Aralık 2019</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="blog__details__comment">
-                            <h4>Yorum bırak</h4>
+                            <h4 data-key="blog_details_leave_comment">Yorum bırak</h4>
                             <form action="#">
                                 <div class="input__list">
-                                    <input type="text" placeholder="İsim">
-                                    <input type="text" placeholder="E-posta">
-                                    <input type="text" placeholder="Web sitesi">
+                                    <input type="text" placeholder="İsim" data-key="blog_details_name_placeholder">
+                                    <input type="text" placeholder="E-posta" data-key="blog_details_email_placeholder">
+                                    <input type="text" placeholder="Web sitesi" data-key="blog_details_website_placeholder">
                                 </div>
-                                <textarea placeholder="Yorum"></textarea>
-                                <button type="submit" class="site-btn">Mesaj Gönder</button>
+                                <textarea placeholder="Yorum" data-key="blog_details_comment_placeholder"></textarea>
+                                <button type="submit" class="site-btn" data-key="blog_details_submit_button">Mesaj Gönder</button>
                             </form>
                         </div>
                     </div>
@@ -216,39 +217,39 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="footer__option__item">
-                            <h5>Hakkımızda</h5>
-                            <p>2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
-                            <a href="./hakkimizda.html" class="read__more">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <h5 data-key="footer_about_title">Hakkımızda</h5>
+                            <p data-key="footer_about_desc">2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <a href="./hakkimizda.html" class="read__more" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Biz kimiz</h5>
+                            <h5 data-key="who_we_are">Biz kimiz</h5>
                             <ul>
-                                <li><a href="#">Ekip</a></li>
-                                <li><a href="#">Kariyer</a></li>
-                                <li><a href="./iletisim.html">Bize ulaşın</a></li>
-                                <li><a href="#">Konumlar</a></li>
+                                <li><a href="#" data-key="team">Ekip</a></li>
+                                <li><a href="#" data-key="careers">Kariyer</a></li>
+                                <li><a href="./iletisim.html" data-key="contact_us">Bize ulaşın</a></li>
+                                <li><a href="#" data-key="locations">Konumlar</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Çalışmalarımız</h5>
+                            <h5 data-key="our_work">Çalışmalarımız</h5>
                             <ul>
-                                <li><a href="#">Öne çıkanlar</a></li>
-                                <li><a href="#">En son</a></li>
-                                <li><a href="#">Arşive göz atın</a></li>
-                                <li><a href="#">Web için video</a></li>
+                                <li><a href="#" data-key="featured">Öne çıkanlar</a></li>
+                                <li><a href="#" data-key="latest">En son</a></li>
+                                <li><a href="#" data-key="browse_archive">Arşive göz atın</a></li>
+                                <li><a href="#" data-key="video_for_web">Web için video</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="footer__option__item">
-                            <h5>Bülten</h5>
-                            <p>Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <h5 data-key="newsletter">Bülten</h5>
+                            <p data-key="newsletter_desc">Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
                             <form action="#">
-                                <input type="text" placeholder="E-posta">
+                                <input type="text" data-key="email_placeholder" placeholder="E-posta">
                                 <button type="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
@@ -259,7 +260,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Telif Hakkı &copy; 2024
+                        <p class="footer__copyright__text" data-key="copyright">Telif Hakkı &copy; 2024
                             Tüm hakları saklıdır | Noctra Production
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -279,6 +280,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
 </body>
 
 </html>

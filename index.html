@@ -44,19 +44,19 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.html">Ana Sayfa</a></li>
-                                <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                <li><a href="./hizmetler.html">Hizmetler</a></li>
-                                <li><a href="#">Sayfalar</a>
+                                <li class="active"><a href="./index.html" data-key="home">Ana Sayfa</a></li>
+                                <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                <li><a href="./hizmetler.html" data-key="services">Hizmetler</a></li>
+                                <li><a href="#" data-key="pages">Sayfalar</a>
                                     <ul class="dropdown">
-                                        <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                        <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-detaylari.html">Blog Detayları</a></li>
+                                        <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                        <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                        <li><a href="./blog.html" data-key="blog">Blog</a></li>
+                                        <li><a href="./blog-detaylari.html" data-key="blog_details">Blog Detayları</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./iletisim.html">İletişim</a></li>
+                                <li><a href="./iletisim.html" data-key="contact">İletişim</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
@@ -66,6 +66,7 @@
                             <a href="#" target="_blank"><i class="fa fa-vimeo"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
                         </div>
+                        <a href="#" id="language-switcher" class="language-switcher-flag"></a>
                     </div>
                 </div>
             </div>
@@ -82,9 +83,9 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero__text">
-                                <span>Web sitesi ve video düzenleme için</span>
-                                <h2>Noctra Production Portfolyosu</h2>
-                                <a href="./hakkimizda.html" class="primary-btn">Hakkımızda daha fazlası</a>
+                                <span data-key="hero_subtitle">Web sitesi ve video düzenleme için</span>
+                                <h2 data-key="hero_title">Noctra Production Portfolyosu</h2>
+                                <a href="./hakkimizda.html" class="primary-btn" data-key="hero_button">Hakkımızda daha fazlası</a>
                             </div>
                         </div>
                     </div>
@@ -95,9 +96,9 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero__text">
-                                <span>Web sitesi ve video düzenleme için</span>
-                                <h2>Noctra Production Portfolyosu</h2>
-                                <a href="./hakkimizda.html" class="primary-btn">Hakkımızda daha fazlası</a>
+                                <span data-key="hero_subtitle">Web sitesi ve video düzenleme için</span>
+                                <h2 data-key="hero_title">Noctra Production Portfolyosu</h2>
+                                <a href="./hakkimizda.html" class="primary-btn" data-key="hero_button">Hakkımızda daha fazlası</a>
                             </div>
                         </div>
                     </div>
@@ -108,9 +109,9 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="hero__text">
-                                <span>Web sitesi ve video düzenleme için</span>
-                                <h2>Noctra Production Portfolyosu</h2>
-                                <a href="./hakkimizda.html" class="primary-btn">Hakkımızda daha fazlası</a>
+                                <span data-key="hero_subtitle">Web sitesi ve video düzenleme için</span>
+                                <h2 data-key="hero_title">Noctra Production Portfolyosu</h2>
+                                <a href="./hakkimizda.html" class="primary-btn" data-key="hero_button">Hakkımızda daha fazlası</a>
                             </div>
                         </div>
                     </div>
@@ -127,11 +128,11 @@
                 <div class="col-lg-4">
                     <div class="services__title">
                         <div class="section-title">
-                            <span>Hizmetlerimiz</span>
-                            <h2>Ne Yapıyoruz?</h2>
+                            <span data-key="services_subtitle">Hizmetlerimiz</span>
+                            <h2 data-key="services_title">Ne Yapıyoruz?</h2>
                         </div>
-                        <p>Ekibimizden bir kameraman kiralarsanız, işletmeniz için özel bir video hazırlayacak bir video uzmanı edinirsiniz.</p>
-                        <a href="./hizmetler.html" class="primary-btn">Tüm hizmetleri görüntüle</a>
+                        <p data-key="services_desc">Ekibimizden bir kameraman kiralarsanız, işletmeniz için özel bir video hazırlayacak bir video uzmanı edinirsiniz.</p>
+                        <a href="./hizmetler.html" class="primary-btn" data-key="services_button">Tüm hizmetleri görüntüle</a>
                     </div>
                 </div>
                 <div class="col-lg-8">
@@ -141,8 +142,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/si-1.png" alt="">
                                 </div>
-                                <h4>Hareketli grafikler</h4>
-                                <p>İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
+                                <h4 data-key="motion_graphics">Hareketli grafikler</h4>
+                                <p data-key="motion_graphics_desc">İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -150,8 +151,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/si-2.png" alt="">
                                 </div>
-                                <h4>Senaryo yazımı ve düzenleme</h4>
-                                <p>İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
+                                <h4 data-key="scriptwriting">Senaryo yazımı ve düzenleme</h4>
+                                <p data-key="motion_graphics_desc">İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -159,8 +160,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/si-3.png" alt="">
                                 </div>
-                                <h4>Video dağıtımı</h4>
-                                <p>İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
+                                <h4 data-key="video_distribution">Video dağıtımı</h4>
+                                <p data-key="motion_graphics_desc">İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-6 col-sm-6">
@@ -168,8 +169,8 @@
                                 <div class="services__item__icon">
                                     <img src="img/icons/si-4.png" alt="">
                                 </div>
-                                <h4>Video barındırma</h4>
-                                <p>İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
+                                <h4 data-key="video_hosting">Video barındırma</h4>
+                                <p data-key="motion_graphics_desc">İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun, post prodüksiyon hizmetlerimiz son dokunuşları yapabilir.</p>
                             </div>
                         </div>
                     </div>
@@ -187,10 +188,10 @@
                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i
                         class="fa fa-play"></i></a>
                 <div class="work__item__hover">
-                    <h4>VIP Oto Lastikleri ve Servisi</h4>
+                    <h4 data-key="work_hover_title">VIP Oto Lastikleri ve Servisi</h4>
                     <ul>
-                        <li>e-Ticaret</li>
-                        <li>Magento</li>
+                        <li data-key="work_hover_cat1">e-Ticaret</li>
+                        <li data-key="work_hover_cat2">Magento</li>
                     </ul>
                 </div>
             </div>
@@ -206,10 +207,10 @@
                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i
                         class="fa fa-play"></i></a>
                 <div class="work__item__hover">
-                    <h4>VIP Oto Lastikleri ve Servisi</h4>
+                    <h4 data-key="work_hover_title">VIP Oto Lastikleri ve Servisi</h4>
                     <ul>
-                        <li>e-Ticaret</li>
-                        <li>Magento</li>
+                        <li data-key="work_hover_cat1">e-Ticaret</li>
+                        <li data-key="work_hover_cat2">Magento</li>
                     </ul>
                 </div>
             </div>
@@ -225,10 +226,10 @@
                 <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="play-btn video-popup"><i
                         class="fa fa-play"></i></a>
                 <div class="work__item__hover">
-                    <h4>VIP Oto Lastikleri ve Servisi</h4>
+                    <h4 data-key="work_hover_title">VIP Oto Lastikleri ve Servisi</h4>
                     <ul>
-                        <li>e-Ticaret</li>
-                        <li>Magento</li>
+                        <li data-key="work_hover_cat1">e-Ticaret</li>
+                        <li data-key="work_hover_cat2">Magento</li>
                     </ul>
                 </div>
             </div>
@@ -246,7 +247,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-1.png" alt="">
                                 <h2 class="counter_num">230</h2>
-                                <p>Tamamlanan Projeler</p>
+                                <p data-key="counter1_text">Tamamlanan Projeler</p>
                             </div>
                         </div>
                     </div>
@@ -255,7 +256,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-2.png" alt="">
                                 <h2 class="counter_num">1068</h2>
-                                <p>Mutlu Müşteriler</p>
+                                <p data-key="counter2_text">Mutlu Müşteriler</p>
                             </div>
                         </div>
                     </div>
@@ -264,7 +265,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-3.png" alt="">
                                 <h2 class="counter_num">230</h2>
-                                <p>Potansiyel Müşteriler</p>
+                                <p data-key="counter3_text">Potansiyel Müşteriler</p>
                             </div>
                         </div>
                     </div>
@@ -273,7 +274,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-4.png" alt="">
                                 <h2 class="counter_num">230</h2>
-                                <p>Tamamlanan Projeler</p>
+                                <p data-key="counter4_text">Tamamlanan Projeler</p>
                             </div>
                         </div>
                     </div>
@@ -289,8 +290,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title team__title">
-                        <span>Tanıştığımıza memnun oldum</span>
-                        <h2>EKİBİMİZ</h2>
+                        <span data-key="team_subtitle">Tanıştığımıza memnun oldum</span>
+                        <h2 data-key="team_title">EKİBİMİZ</h2>
                     </div>
                 </div>
             </div>
@@ -298,8 +299,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item set-bg" data-setbg="img/team/team-1.jpg">
                         <div class="team__item__text">
-                            <h4>Kasım Ağca</h4>
-                            <p>Fpv Drone Pilotu</p>
+                            <h4 data-key="team_member1_name">Kasım Ağca</h4>
+                            <p data-key="team_member1_role">Fpv Drone Pilotu</p>
                             <div class="team__item__social">
                                 <a href="https://www.instagram.com/kasimfpv" target="_blank"><i class="fa fa-instagram"></i></a>
                             </div>
@@ -309,8 +310,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item team__item--second set-bg" data-setbg="img/team/team-2.jpg">
                         <div class="team__item__text">
-                            <h4>İsmail Can Duru</h4>
-                            <p>Creative Director</p>
+                            <h4 data-key="team_member2_name">İsmail Can Duru</h4>
+                            <p data-key="team_member2_role">Creative Director</p>
                             <div class="team__item__social">
                                 <a href="https://www.instagram.com/canduru.visuals" target="_blank"><i class="fa fa-instagram"></i></a>
                             </div>
@@ -320,8 +321,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item team__item--third set-bg" data-setbg="img/team/team-3.jpg">
                         <div class="team__item__text">
-                            <h4>Ayşe Yılmaz</h4>
-                            <p>Video Editör</p>
+                            <h4 data-key="team_member3_name">Ayşe Yılmaz</h4>
+                            <p data-key="team_member3_role">Video Editör</p>
                             <div class="team__item__social">
                                 <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -332,8 +333,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item team__item--four set-bg" data-setbg="img/team/team-4.jpg">
                         <div class="team__item__text">
-                            <h4>Ahmet Çelik</h4>
-                            <p>Görüntü Yönetmeni</p>
+                            <h4 data-key="team_member4_name">Ahmet Çelik</h4>
+                            <p data-key="team_member4_role">Görüntü Yönetmeni</p>
                             <div class="team__item__social">
                                 <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -343,7 +344,7 @@
                 </div>
                 <div class="col-lg-12 p-0">
                     <div class="team__btn">
-                        <a href="#" class="primary-btn">Ekibimizle Tanışın</a>
+                        <a href="#" class="primary-btn" data-key="team_button">Ekibimizle Tanışın</a>
                     </div>
                 </div>
             </div>
@@ -357,8 +358,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title center-title">
-                        <span>Blogumuz</span>
-                        <h2>Blog Güncellemesi</h2>
+                        <span data-key="blog_subtitle">Blogumuz</span>
+                        <h2 data-key="blog_title">Blog Güncellemesi</h2>
                     </div>
                 </div>
             </div>
@@ -366,79 +367,46 @@
                 <div class="latest__slider owl-carousel">
                     <div class="col-lg-4">
                         <div class="blog__item latest__item">
-                            <h4>Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
+                            <h4 data-key="blog1_title">Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
                             <ul>
-                                <li>3 Ocak 2020</li>
-                                <li>05 Yorum</li>
+                                <li data-key="blog_date">3 Ocak 2020</li>
+                                <li data-key="blog_comments">05 Yorum</li>
                             </ul>
-                            <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                            <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                            <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="blog__item latest__item">
-                            <h4>Tampon Reklamlar: 6 Saniyede Nasıl Hikaye Anlatılır</h4>
+                            <h4 data-key="blog2_title">Tampon Reklamlar: 6 Saniyede Nasıl Hikaye Anlatılır</h4>
                             <ul>
-                                <li>3 Ocak 2020</li>
-                                <li>05 Yorum</li>
+                                <li data-key="blog_date">3 Ocak 2020</li>
+                                <li data-key="blog_comments">05 Yorum</li>
                             </ul>
-                            <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                            <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                            <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="blog__item latest__item">
-                            <h4>Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
+                            <h4 data-key="blog1_title">Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
                             <ul>
-                                <li>3 Ocak 2020</li>
-                                <li>05 Yorum</li>
+                                <li data-key="blog_date">3 Ocak 2020</li>
+                                <li data-key="blog_comments">05 Yorum</li>
                             </ul>
-                            <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                            <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                            <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="blog__item latest__item">
-                            <h4>Tampon Reklamlar: 6 Saniyede Nasıl Hikaye Anlatılır</h4>
+                            <h4 data-key="blog2_title">Tampon Reklamlar: 6 Saniyede Nasıl Hikaye Anlatılır</h4>
                             <ul>
-                                <li>3 Ocak 2020</li>
-                                <li>05 Yorum</li>
+                                <li data-key="blog_date">3 Ocak 2020</li>
+                                <li data-key="blog_comments">05 Yorum</li>
                             </ul>
-                            <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                            <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
-                            <ul>
-                                <li>3 Ocak 2020</li>
-                                <li>05 Yorum</li>
-                            </ul>
-                            <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                            <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
-                            <ul>
-                                <li>3 Ocak 2020</li>
-                                <li>05 Yorum</li>
-                            </ul>
-                            <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                            <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="blog__item latest__item">
-                            <h4>Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
-                            <ul>
-                                <li>3 Ocak 2020</li>
-                                <li>05 Yorum</li>
-                            </ul>
-                            <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                            <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                            <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                 </div>
@@ -453,9 +421,9 @@
             <div class="row">
                 <div class="col-lg-8">
                     <div class="callto__text">
-                        <h2>Taze Fikirler, Taze Anlar Hikayelerinize Kanat Veriyor.</h2>
-                        <p>INC5000, 2019'un en iyi iş yerleri</p>
-                        <a href="#">Hikayelerinizi başlatın</a>
+                        <h2 data-key="callto_title">Taze Fikirler, Taze Anlar Hikayelerinize Kanat Veriyor.</h2>
+                        <p data-key="callto_subtitle">INC5000, 2019'un en iyi iş yerleri</p>
+                        <a href="#" data-key="callto_button">Hikayelerinizi başlatın</a>
                     </div>
                 </div>
             </div>
@@ -488,39 +456,39 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="footer__option__item">
-                            <h5>Hakkımızda</h5>
-                            <p>2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
-                            <a href="./hakkimizda.html" class="read__more">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <h5 data-key="footer_about_title">Hakkımızda</h5>
+                            <p data-key="footer_about_desc">2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <a href="./hakkimizda.html" class="read__more" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Biz kimiz</h5>
+                            <h5 data-key="who_we_are">Biz kimiz</h5>
                             <ul>
-                                <li><a href="#">Ekip</a></li>
-                                <li><a href="#">Kariyer</a></li>
-                                <li><a href="./iletisim.html">Bize ulaşın</a></li>
-                                <li><a href="#">Konumlar</a></li>
+                                <li><a href="#" data-key="team">Ekip</a></li>
+                                <li><a href="#" data-key="careers">Kariyer</a></li>
+                                <li><a href="./iletisim.html" data-key="contact_us">Bize ulaşın</a></li>
+                                <li><a href="#" data-key="locations">Konumlar</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Çalışmalarımız</h5>
+                            <h5 data-key="our_work">Çalışmalarımız</h5>
                             <ul>
-                                <li><a href="#">Öne çıkanlar</a></li>
-                                <li><a href="#">En son</a></li>
-                                <li><a href="#">Arşive göz atın</a></li>
-                                <li><a href="#">Web için video</a></li>
+                                <li><a href="#" data-key="featured">Öne çıkanlar</a></li>
+                                <li><a href="#" data-key="latest">En son</a></li>
+                                <li><a href="#" data-key="browse_archive">Arşive göz atın</a></li>
+                                <li><a href="#" data-key="video_for_web">Web için video</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="footer__option__item">
-                            <h5>Bülten</h5>
-                            <p>Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <h5 data-key="newsletter">Bülten</h5>
+                            <p data-key="newsletter_desc">Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
                             <form action="#">
-                                <input type="text" placeholder="E-posta">
+                                <input type="text" data-key="email_placeholder" placeholder="E-posta">
                                 <button type="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
@@ -530,11 +498,9 @@
             <div class="footer__copyright">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Telif Hakkı &copy; 2024
+                        <p class="footer__copyright__text" data-key="copyright">Telif Hakkı &copy; 2024
                             Tüm hakları saklıdır | Noctra Production
                         </p>
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     </div>
                 </div>
             </div>
@@ -551,6 +517,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
 </body>
 
 </html>

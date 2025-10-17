@@ -44,19 +44,19 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li><a href="./anasayfa.html">Ana Sayfa</a></li>
-                                <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                <li><a href="./hizmetler.html">Hizmetler</a></li>
-                                <li class="active"><a href="#">Sayfalar</a>
+                                <li><a href="./index.html" data-key="home">Ana Sayfa</a></li>
+                                <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                <li><a href="./hizmetler.html" data-key="services">Hizmetler</a></li>
+                                <li><a href="#" data-key="pages">Sayfalar</a>
                                     <ul class="dropdown">
-                                        <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                        <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-detaylari.html">Blog Detayları</a></li>
+                                        <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                        <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                        <li class="active"><a href="./blog.html" data-key="blog">Blog</a></li>
+                                        <li><a href="./blog-detaylari.html" data-key="blog_details">Blog Detayları</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./iletisim.html">İletişim</a></li>
+                                <li><a href="./iletisim.html" data-key="contact">İletişim</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
@@ -66,6 +66,7 @@
                             <a href="#" target="_blank"><i class="fa fa-vimeo"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
                         </div>
+                        <a href="#" id="language-switcher" class="language-switcher-flag"></a>
                     </div>
                 </div>
             </div>
@@ -80,10 +81,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Blogumuz</h2>
+                        <h2 data-key="blog_subtitle">Blogumuz</h2>
                         <div class="breadcrumb__links">
-                            <a href="./anasayfa.html">Ana Sayfa</a>
-                            <span>Blog</span>
+                            <a href="./index.html" data-key="home">Ana Sayfa</a>
+                            <span data-key="blog">Blog</span>
                         </div>
                     </div>
                 </div>
@@ -98,111 +99,111 @@
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
+                        <h4 data-key="blog1_title">Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Tampon Reklamlar: 6 Saniyede Nasıl Hikaye Anlatılır</h4>
+                        <h4 data-key="blog2_title">Tampon Reklamlar: 6 Saniyede Nasıl Hikaye Anlatılır</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Dijital Çağ İçin İşe Alım Pazarlaması: Kesin Bir Kılavuz</h4>
+                        <h4 data-key="blog_post3_title">Dijital Çağ İçin İşe Alım Pazarlaması: Kesin Bir Kılavuz</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Yeni Ekip Üyelerimize Merhaba Deyin!</h4>
+                        <h4 data-key="blog_post4_title">Yeni Ekip Üyelerimize Merhaba Deyin!</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Dijital Çağ İçin İşe Alım Pazarlaması: Kesin Bir Kılavuz</h4>
+                        <h4 data-key="blog_post5_title">Dijital Çağ İçin İşe Alım Pazarlaması: Kesin Bir Kılavuz</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Tıklama Başına Ödeme Pazarlaması: Bir ‘Temel Bilgiler’ Kılavuzu</h4>
+                        <h4 data-key="blog_post6_title">Tıklama Başına Ödeme Pazarlaması: Bir ‘Temel Bilgiler’ Kılavuzu</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Noctra Production, Yeni Üniversite Web Sitesi Tasarımını Başlattı...</h4>
+                        <h4 data-key="blog_post7_title">Noctra Production, Yeni Üniversite Web Sitesi Tasarımını Başlattı...</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Basın Bülteni Nasıl ve Ne Zaman Yazılır: En İyi Uygulamalar...</h4>
+                        <h4 data-key="blog_post8_title">Basın Bülteni Nasıl ve Ne Zaman Yazılır: En İyi Uygulamalar...</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
                     <div class="blog__item">
-                        <h4>Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
+                        <h4 data-key="blog_post9_title">Kullanıcıları Sosyal Medyada Bir Videoyu Paylaşmaya Ne Teşvik Eder?</h4>
                         <ul>
-                            <li>3 Ocak 2020</li>
-                            <li>05 Yorum</li>
+                            <li data-key="blog_date">3 Ocak 2020</li>
+                            <li data-key="blog_comments">05 Yorum</li>
                         </ul>
-                        <p>Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
-                        <a href="./blog-detaylari.html">Daha fazlasını oku <span class="arrow_right"></span></a>
+                        <p data-key="blog_desc">Yakın zamanda Vital bir müşteri için yeni bir web sitesi başlattık ve sahip olduğumuz harika özelliklerden bazılarını paylaşmak istedik...</p>
+                        <a href="./blog-detaylari.html" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-12">
                     <div class="pagination__option blog__pagi">
-                        <a href="#" class="arrow__pagination left__arrow"><span class="arrow_left"></span> Geri</a>
+                        <a href="#" class="arrow__pagination left__arrow" data-key="pagination_prev"><span class="arrow_left"></span> Geri</a>
                         <a href="#" class="number__pagination">1</a>
                         <a href="#" class="number__pagination">2</a>
-                        <a href="#" class="arrow__pagination right__arrow">İleri <span class="arrow_right"></span></a>
+                        <a href="#" class="arrow__pagination right__arrow" data-key="pagination_next">İleri <span class="arrow_right"></span></a>
                     </div>
                 </div>
             </div>
@@ -235,39 +236,39 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="footer__option__item">
-                            <h5>Hakkımızda</h5>
-                            <p>2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
-                            <a href="./hakkimizda.html" class="read__more">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <h5 data-key="footer_about_title">Hakkımızda</h5>
+                            <p data-key="footer_about_desc">2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <a href="./hakkimizda.html" class="read__more" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Biz kimiz</h5>
+                            <h5 data-key="who_we_are">Biz kimiz</h5>
                             <ul>
-                                <li><a href="#">Ekip</a></li>
-                                <li><a href="#">Kariyer</a></li>
-                                <li><a href="./iletisim.html">Bize ulaşın</a></li>
-                                <li><a href="#">Konumlar</a></li>
+                                <li><a href="#" data-key="team">Ekip</a></li>
+                                <li><a href="#" data-key="careers">Kariyer</a></li>
+                                <li><a href="./iletisim.html" data-key="contact_us">Bize ulaşın</a></li>
+                                <li><a href="#" data-key="locations">Konumlar</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Çalışmalarımız</h5>
+                            <h5 data-key="our_work">Çalışmalarımız</h5>
                             <ul>
-                                <li><a href="#">Öne çıkanlar</a></li>
-                                <li><a href="#">En son</a></li>
-                                <li><a href="#">Arşive göz atın</a></li>
-                                <li><a href="#">Web için video</a></li>
+                                <li><a href="#" data-key="featured">Öne çıkanlar</a></li>
+                                <li><a href="#" data-key="latest">En son</a></li>
+                                <li><a href="#" data-key="browse_archive">Arşive göz atın</a></li>
+                                <li><a href="#" data-key="video_for_web">Web için video</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="footer__option__item">
-                            <h5>Bülten</h5>
-                            <p>Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <h5 data-key="newsletter">Bülten</h5>
+                            <p data-key="newsletter_desc">Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
                             <form action="#">
-                                <input type="text" placeholder="E-posta">
+                                <input type="text" data-key="email_placeholder" placeholder="E-posta">
                                 <button type="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
@@ -278,7 +279,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Telif Hakkı &copy; 2024
+                        <p class="footer__copyright__text" data-key="copyright">Telif Hakkı &copy; 2024
                             Tüm hakları saklıdır | Noctra Production
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -298,6 +299,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
 </body>
 
 </html>

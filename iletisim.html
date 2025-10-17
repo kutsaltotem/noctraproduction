@@ -44,19 +44,19 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li><a href="./anasayfa.html">Ana Sayfa</a></li>
-                                <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                <li><a href="./hizmetler.html">Hizmetler</a></li>
-                                <li><a href="#">Sayfalar</a>
+                                <li><a href="./index.html" data-key="home">Ana Sayfa</a></li>
+                                <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                <li><a href="./hizmetler.html" data-key="services">Hizmetler</a></li>
+                                <li><a href="#" data-key="pages">Sayfalar</a>
                                     <ul class="dropdown">
-                                        <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                        <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-detaylari.html">Blog Detayları</a></li>
+                                        <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                        <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                        <li><a href="./blog.html" data-key="blog">Blog</a></li>
+                                        <li><a href="./blog-detaylari.html" data-key="blog_details">Blog Detayları</a></li>
                                     </ul>
                                 </li>
-                                <li class="active"><a href="./iletisim.html">İletişim</a></li>
+                                <li class="active"><a href="./iletisim.html" data-key="contact">İletişim</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
@@ -66,6 +66,7 @@
                             <a href="#" target="_blank"><i class="fa fa-vimeo"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
                         </div>
+                        <a href="#" id="language-switcher" class="language-switcher-flag"></a>
                     </div>
                 </div>
             </div>
@@ -80,10 +81,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Bize Ulaşın</h2>
+                        <h2 data-key="contact_us">Bize Ulaşın</h2>
                         <div class="breadcrumb__links">
-                            <a href="./anasayfa.html">Ana Sayfa</a>
-                            <span>İletişim</span>
+                            <a href="./index.html" data-key="home">Ana Sayfa</a>
+                            <span data-key="contact">İletişim</span>
                         </div>
                     </div>
                 </div>
@@ -102,8 +103,8 @@
                             <i class="fa fa-map-marker"></i>
                         </div>
                         <div class="contact__widget__item__text">
-                            <h4>Adres</h4>
-                            <p>Kapaklı, Tekirdağ</p>
+                            <h4 data-key="contact_address">Adres</h4>
+                            <p data-key="contact_address_value">Kapaklı, Tekirdağ</p>
                         </div>
                     </div>
                 </div>
@@ -113,8 +114,8 @@
                             <i class="fa fa-phone"></i>
                         </div>
                         <div class="contact__widget__item__text">
-                            <h4>İletişim hattı</h4>
-                            <p>+90 555 555 55 55</p>
+                            <h4 data-key="contact_hotline">İletişim hattı</h4>
+                            <p data-key="contact_hotline_value">+90 555 555 55 55</p>
                         </div>
                     </div>
                 </div>
@@ -124,8 +125,8 @@
                             <i class="fa fa-map-marker"></i>
                         </div>
                         <div class="contact__widget__item__text">
-                            <h4>E-posta</h4>
-                            <p>info@noctraproduction.com</p>
+                            <h4 data-key="contact_email">E-posta</h4>
+                            <p data-key="contact_email_value">info@noctraproduction.com</p>
                         </div>
                     </div>
                 </div>
@@ -145,13 +146,13 @@
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="contact__form">
-                        <h3>İletişime Geçin</h3>
+                        <h3 data-key="contact_get_in_touch">İletişime Geçin</h3>
                         <form action="https://formspree.io/f/xpwykakv" method="POST">
-                            <input type="text" name="name" placeholder="İsim">
-                            <input type="email" name="email" placeholder="E-posta">
-                            <input type="text" name="subject" placeholder="Başlık">
-                            <textarea name="message" placeholder="Mesaj"></textarea>
-                            <button type="submit" class="site-btn">Mesaj Gönder</button>
+                            <input type="text" name="name" placeholder="İsim" data-key="contact_name_placeholder">
+                            <input type="email" name="email" placeholder="E-posta" data-key="contact_email_placeholder">
+                            <input type="text" name="subject" placeholder="Başlık" data-key="contact_subject_placeholder">
+                            <textarea name="message" placeholder="Mesaj" data-key="contact_message_placeholder"></textarea>
+                            <button type="submit" class="site-btn" data-key="contact_send_message_button">Mesaj Gönder</button>
                         </form>
                     </div>
                 </div>
@@ -185,39 +186,39 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="footer__option__item">
-                            <h5>Hakkımızda</h5>
-                            <p>2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
-                            <a href="./hakkimizda.html" class="read__more">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <h5 data-key="footer_about_title">Hakkımızda</h5>
+                            <p data-key="footer_about_desc">2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <a href="./hakkimizda.html" class="read__more" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Biz kimiz</h5>
+                            <h5 data-key="who_we_are">Biz kimiz</h5>
                             <ul>
-                                <li><a href="#">Ekip</a></li>
-                                <li><a href="#">Kariyer</a></li>
-                                <li><a href="./iletisim.html">Bize ulaşın</a></li>
-                                <li><a href="#">Konumlar</a></li>
+                                <li><a href="#" data-key="team">Ekip</a></li>
+                                <li><a href="#" data-key="careers">Kariyer</a></li>
+                                <li><a href="./iletisim.html" data-key="contact_us">Bize ulaşın</a></li>
+                                <li><a href="#" data-key="locations">Konumlar</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Çalışmalarımız</h5>
+                            <h5 data-key="our_work">Çalışmalarımız</h5>
                             <ul>
-                                <li><a href="#">Öne çıkanlar</a></li>
-                                <li><a href="#">En son</a></li>
-                                <li><a href="#">Arşive göz atın</a></li>
-                                <li><a href="#">Web için video</a></li>
+                                <li><a href="#" data-key="featured">Öne çıkanlar</a></li>
+                                <li><a href="#" data-key="latest">En son</a></li>
+                                <li><a href="#" data-key="browse_archive">Arşive göz atın</a></li>
+                                <li><a href="#" data-key="video_for_web">Web için video</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="footer__option__item">
-                            <h5>Bülten</h5>
-                            <p>Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <h5 data-key="newsletter">Bülten</h5>
+                            <p data-key="newsletter_desc">Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
                             <form action="#">
-                                <input type="text" placeholder="E-posta">
+                                <input type="text" data-key="email_placeholder" placeholder="E-posta">
                                 <button type="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
@@ -228,7 +229,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Telif Hakkı &copy; 2024
+                        <p class="footer__copyright__text" data-key="copyright">Telif Hakkı &copy; 2024
                             Tüm hakları saklıdır | Noctra Production
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -248,6 +249,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
 </body>
 
 </html>

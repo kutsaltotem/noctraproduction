@@ -44,19 +44,19 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li><a href="./index.html">Ana Sayfa</a></li>
-                                <li class="active"><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                <li><a href="./hizmetler.html">Hizmetler</a></li>
-                                <li><a href="#">Sayfalar</a>
+                                <li><a href="./index.html" data-key="home">Ana Sayfa</a></li>
+                                <li class="active"><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                <li><a href="./hizmetler.html" data-key="services">Hizmetler</a></li>
+                                <li><a href="#" data-key="pages">Sayfalar</a>
                                     <ul class="dropdown">
-                                        <li><a href="./hakkimizda.html">Hakkımızda</a></li>
-                                        <li><a href="./portfolyo.html">Portfolyo</a></li>
-                                        <li><a href="./blog.html">Blog</a></li>
-                                        <li><a href="./blog-detaylari.html">Blog Detayları</a></li>
+                                        <li><a href="./hakkimizda.html" data-key="about">Hakkımızda</a></li>
+                                        <li><a href="./portfolyo.html" data-key="portfolio">Portfolyo</a></li>
+                                        <li><a href="./blog.html" data-key="blog">Blog</a></li>
+                                        <li><a href="./blog-detaylari.html" data-key="blog_details">Blog Detayları</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./iletisim.html">İletişim</a></li>
+                                <li><a href="./iletisim.html" data-key="contact">İletişim</a></li>
                             </ul>
                         </nav>
                         <div class="header__nav__social">
@@ -66,6 +66,7 @@
                             <a href="#" target="_blank"><i class="fa fa-vimeo"></i></a>
                             <a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a>
                         </div>
+                        <a href="#" id="language-switcher" class="language-switcher-flag"></a>
                     </div>
                 </div>
             </div>
@@ -80,10 +81,10 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <div class="breadcrumb__text">
-                        <h2>Hakkımızda</h2>
+                        <h2 data-key="about">Hakkımızda</h2>
                         <div class="breadcrumb__links">
-                            <a href="./index.html">Ana Sayfa</a>
-                            <span>Hakkımızda</span>
+                            <a href="./index.html" data-key="home">Ana Sayfa</a>
+                            <span data-key="about">Hakkımızda</span>
                         </div>
                     </div>
                 </div>
@@ -119,8 +120,8 @@
                 <div class="col-lg-6">
                     <div class="about__text">
                         <div class="section-title">
-                            <span>Noctra Production Hakkında</span>
-                            <h2>Biz kimiz?</h2>
+                            <span data-key="about_page_subtitle">Noctra Production Hakkında</span>
+                            <h2 data-key="who_we_are">Biz kimiz?</h2>
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -128,8 +129,8 @@
                                     <div class="services__item__icon">
                                         <img src="img/icons/si-3.png" alt="">
                                     </div>
-                                    <h4>Video dağıtımı</h4>
-                                    <p>İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun.</p>
+                                    <h4 data-key="video_distribution">Video dağıtımı</h4>
+                                    <p data-key="about_video_dist_desc">İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun.</p>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-6">
@@ -137,13 +138,13 @@
                                     <div class="services__item__icon">
                                         <img src="img/icons/si-4.png" alt="">
                                     </div>
-                                    <h4>Video barındırma</h4>
-                                    <p>İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun.</p>
+                                    <h4 data-key="video_hosting">Video barındırma</h4>
+                                    <p data-key="about_video_dist_desc">İster düzenleme sürecinin yarısında olun, ister daha başlamamış olun.</p>
                                 </div>
                             </div>
                         </div>
                         <div class="about__text__desc">
-                            <p>2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <p data-key="footer_about_desc">2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
                         </div>
                     </div>
                 </div>
@@ -158,8 +159,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title center-title">
-                        <span>Müşterilerimiz Tarafından Seviliyoruz</span>
-                        <h2>Müşteriler ne diyor?</h2>
+                        <span data-key="testimonial_subtitle">Müşterilerimiz Tarafından Seviliyoruz</span>
+                        <h2 data-key="testimonial_title">Müşteriler ne diyor?</h2>
                     </div>
                 </div>
             </div>
@@ -168,15 +169,15 @@
                     <div class="col-lg-4">
                         <div class="testimonial__item">
                             <div class="testimonial__text">
-                                <p>O kadar harika bir hizmet sunuyor ki, her sektörden her türden insana fayda sağlayabilir.</p>
+                                <p data-key="testimonial1_text">O kadar harika bir hizmet sunuyor ki, her sektörden her türden insana fayda sağlayabilir.</p>
                             </div>
                             <div class="testimonial__author">
                                 <div class="testimonial__author__pic">
                                     <img src="img/testimonial/ta-1.jpg" alt="">
                                 </div>
                                 <div class="testimonial__author__text">
-                                    <h5>Zeynep Kaya</h5>
-                                    <span>Web Tasarımcısı</span>
+                                    <h5 data-key="testimonial1_author_name">Zeynep Kaya</h5>
+                                    <span data-key="testimonial1_author_role">Web Tasarımcısı</span>
                                 </div>
                             </div>
                         </div>
@@ -184,15 +185,15 @@
                     <div class="col-lg-4">
                         <div class="testimonial__item">
                             <div class="testimonial__text">
-                                <p>Noctra Production, her türden insana fayda sağlayabilecek harika bir hizmet sunuyor.</p>
+                                <p data-key="testimonial2_text">Noctra Production, her türden insana fayda sağlayabilecek harika bir hizmet sunuyor.</p>
                             </div>
                             <div class="testimonial__author">
                                 <div class="testimonial__author__pic">
                                     <img src="img/testimonial/ta-2.jpg" alt="">
                                 </div>
                                 <div class="testimonial__author__text">
-                                    <h5>Ali Veli</h5>
-                                    <span>Pazarlama Müdürü</span>
+                                    <h5 data-key="testimonial2_author_name">Ali Veli</h5>
+                                    <span data-key="testimonial2_author_role">Pazarlama Müdürü</span>
                                 </div>
                             </div>
                         </div>
@@ -200,15 +201,15 @@
                     <div class="col-lg-4">
                         <div class="testimonial__item">
                             <div class="testimonial__text">
-                                <p>Noctra Production, her türden insana fayda sağlayabilecek harika bir hizmet sunuyor.</p>
+                                <p data-key="testimonial2_text">Noctra Production, her türden insana fayda sağlayabilecek harika bir hizmet sunuyor.</p>
                             </div>
                             <div class="testimonial__author">
                                 <div class="testimonial__author__pic">
                                     <img src="img/testimonial/ta-3.jpg" alt="">
                                 </div>
                                 <div class="testimonial__author__text">
-                                    <h5>Fatma Öztürk</h5>
-                                    <span>Proje Yöneticisi</span>
+                                    <h5 data-key="testimonial3_author_name">Fatma Öztürk</h5>
+                                    <span data-key="testimonial3_author_role">Proje Yöneticisi</span>
                                 </div>
                             </div>
                         </div>
@@ -216,15 +217,15 @@
                     <div class="col-lg-4">
                         <div class="testimonial__item">
                             <div class="testimonial__text">
-                                <p>O kadar harika bir hizmet sunuyor ki, her sektörden her türden insana fayda sağlayabilir.</p>
+                                <p data-key="testimonial1_text">O kadar harika bir hizmet sunuyor ki, her sektörden her türden insana fayda sağlayabilir.</p>
                             </div>
                             <div class="testimonial__author">
                                 <div class="testimonial__author__pic">
                                     <img src="img/testimonial/ta-1.jpg" alt="">
                                 </div>
                                 <div class="testimonial__author__text">
-                                    <h5>Mehmet Yılmaz</h5>
-                                    <span>İçerik Üreticisi</span>
+                                    <h5 data-key="testimonial4_author_name">Mehmet Yılmaz</h5>
+                                    <span data-key="testimonial4_author_role">İçerik Üreticisi</span>
                                 </div>
                             </div>
                         </div>
@@ -232,15 +233,15 @@
                     <div class="col-lg-4">
                         <div class="testimonial__item">
                             <div class="testimonial__text">
-                                <p>Noctra Production, her türden insana fayda sağlayabilecek harika bir hizmet sunuyor.</p>
+                                <p data-key="testimonial2_text">Noctra Production, her türden insana fayda sağlayabilecek harika bir hizmet sunuyor.</p>
                             </div>
                             <div class="testimonial__author">
                                 <div class="testimonial__author__pic">
                                     <img src="img/testimonial/ta-2.jpg" alt="">
                                 </div>
                                 <div class="testimonial__author__text">
-                                    <h5>Ayşe Demir</h5>
-                                    <span>Grafik Tasarımcı</span>
+                                    <h5 data-key="testimonial5_author_name">Ayşe Demir</h5>
+                                    <span data-key="testimonial5_author_role">Grafik Tasarımcı</span>
                                 </div>
                             </div>
                         </div>
@@ -261,7 +262,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-1.png" alt="">
                                 <h2 class="counter_num">230</h2>
-                                <p>Tamamlanan Projeler</p>
+                                <p data-key="counter1_text">Tamamlanan Projeler</p>
                             </div>
                         </div>
                     </div>
@@ -270,7 +271,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-2.png" alt="">
                                 <h2 class="counter_num">1068</h2>
-                                <p>Mutlu Müşteriler</p>
+                                <p data-key="counter2_text">Mutlu Müşteriler</p>
                             </div>
                         </div>
                     </div>
@@ -279,7 +280,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-3.png" alt="">
                                 <h2 class="counter_num">230</h2>
-                                <p>Potansiyel Müşteriler</p>
+                                <p data-key="counter3_text">Potansiyel Müşteriler</p>
                             </div>
                         </div>
                     </div>
@@ -288,7 +289,7 @@
                             <div class="counter__item__text">
                                 <img src="img/icons/ci-4.png" alt="">
                                 <h2 class="counter_num">230</h2>
-                                <p>Tamamlanan Projeler</p>
+                                <p data-key="counter4_text">Tamamlanan Projeler</p>
                             </div>
                         </div>
                     </div>
@@ -304,8 +305,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="section-title team__title">
-                        <span>Tanıştığımıza memnun oldum</span>
-                        <h2>EKİBİMİZ</h2>
+                        <span data-key="team_subtitle">Tanıştığımıza memnun oldum</span>
+                        <h2 data-key="team_title">EKİBİMİZ</h2>
                     </div>
                 </div>
             </div>
@@ -313,8 +314,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item set-bg" data-setbg="img/team/team-1.jpg">
                         <div class="team__item__text">
-                            <h4>Kasım Ağca</h4>
-                            <p>Fpv Drone Pilotu</p>
+                            <h4 data-key="team_member1_name">Kasım Ağca</h4>
+                            <p data-key="team_member1_role">Fpv Drone Pilotu</p>
                             <div class="team__item__social">
                                 <a href="https://www.instagram.com/kasimfpv" target="_blank"><i class="fa fa-instagram"></i></a>
                             </div>
@@ -324,8 +325,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item team__item--second set-bg" data-setbg="img/team/team-2.jpg">
                         <div class="team__item__text">
-                            <h4>İsmail Can Duru</h4>
-                            <p>Creative Director</p>
+                            <h4 data-key="team_member2_name">İsmail Can Duru</h4>
+                            <p data-key="team_member2_role">Creative Director</p>
                             <div class="team__item__social">
                                 <a href="https://www.instagram.com/canduru.visuals" target="_blank"><i class="fa fa-instagram"></i></a>
                             </div>
@@ -335,8 +336,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item team__item--third set-bg" data-setbg="img/team/team-3.jpg">
                         <div class="team__item__text">
-                            <h4>Ayşe Yılmaz</h4>
-                            <p>Video Editör</p>
+                            <h4 data-key="team_member3_name">Ayşe Yılmaz</h4>
+                            <p data-key="team_member3_role">Video Editör</p>
                             <div class="team__item__social">
                                 <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -347,8 +348,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6 p-0">
                     <div class="team__item team__item--four set-bg" data-setbg="img/team/team-4.jpg">
                         <div class="team__item__text">
-                            <h4>Ahmet Çelik</h4>
-                            <p>Görüntü Yönetmeni</p>
+                            <h4 data-key="team_member4_name">Ahmet Çelik</h4>
+                            <p data-key="team_member4_role">Görüntü Yönetmeni</p>
                             <div class="team__item__social">
                                 <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
                                 <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
@@ -358,7 +359,7 @@
                 </div>
                 <div class="col-lg-12 p-0">
                     <div class="team__btn">
-                        <a href="#" class="primary-btn">Ekibimizle Tanışın</a>
+                        <a href="#" class="primary-btn" data-key="team_button">Ekibimizle Tanışın</a>
                     </div>
                 </div>
             </div>
@@ -391,39 +392,39 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 col-sm-6">
                         <div class="footer__option__item">
-                            <h5>Hakkımızda</h5>
-                            <p>2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
-                            <a href="./hakkimizda.html" class="read__more">Daha fazlasını oku <span class="arrow_right"></span></a>
+                            <h5 data-key="footer_about_title">Hakkımızda</h5>
+                            <p data-key="footer_about_desc">2024 yılında Kasım Ağca ve İsmail Can Duru tarafından kurulan Noctra Production, ticari, yayın, turizm ve aksiyon sporu video prodüksiyon hizmetleri konusunda uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <a href="./hakkimizda.html" class="read__more" data-key="read_more">Daha fazlasını oku <span class="arrow_right"></span></a>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Biz kimiz</h5>
+                            <h5 data-key="who_we_are">Biz kimiz</h5>
                             <ul>
-                                <li><a href="#">Ekip</a></li>
-                                <li><a href="#">Kariyer</a></li>
-                                <li><a href="./iletisim.html">Bize ulaşın</a></li>
-                                <li><a href="#">Konumlar</a></li>
+                                <li><a href="#" data-key="team">Ekip</a></li>
+                                <li><a href="#" data-key="careers">Kariyer</a></li>
+                                <li><a href="./iletisim.html" data-key="contact_us">Bize ulaşın</a></li>
+                                <li><a href="#" data-key="locations">Konumlar</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-2 col-md-3 col-sm-3">
                         <div class="footer__option__item">
-                            <h5>Çalışmalarımız</h5>
+                            <h5 data-key="our_work">Çalışmalarımız</h5>
                             <ul>
-                                <li><a href="#">Öne çıkanlar</a></li>
-                                <li><a href="#">En son</a></li>
-                                <li><a href="#">Arşive göz atın</a></li>
-                                <li><a href="#">Web için video</a></li>
+                                <li><a href="#" data-key="featured">Öne çıkanlar</a></li>
+                                <li><a href="#" data-key="latest">En son</a></li>
+                                <li><a href="#" data-key="browse_archive">Arşive göz atın</a></li>
+                                <li><a href="#" data-key="video_for_web">Web için video</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="footer__option__item">
-                            <h5>Bülten</h5>
-                            <p>Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
+                            <h5 data-key="newsletter">Bülten</h5>
+                            <p data-key="newsletter_desc">Noctra Production, uzmanlaşmış, ödüllü, tam hizmet veren bir prodüksiyon şirketidir.</p>
                             <form action="#">
-                                <input type="text" placeholder="E-posta">
+                                <input type="text" data-key="email_placeholder" placeholder="E-posta">
                                 <button type="submit"><i class="fa fa-send"></i></button>
                             </form>
                         </div>
@@ -434,7 +435,7 @@
                 <div class="row">
                     <div class="col-lg-12 text-center">
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <p class="footer__copyright__text">Telif Hakkı &copy; 2024
+                        <p class="footer__copyright__text" data-key="copyright">Telif Hakkı &copy; 2024
                             Tüm hakları saklıdır | Noctra Production
                         </p>
                         <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
@@ -454,6 +455,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/translations.js"></script>
+    <script src="js/language.js"></script>
 </body>
 
 </html>
